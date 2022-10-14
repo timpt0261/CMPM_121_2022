@@ -410,7 +410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe19cd3280e5bbe4f9d9eceb050c0945, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 40.9976
+      value: 38.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe19cd3280e5bbe4f9d9eceb050c0945, type: 3}
       propertyPath: m_LocalRotation.w
@@ -444,6 +444,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: fe19cd3280e5bbe4f9d9eceb050c0945, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ca359143ca05fc47b4abc414aebd5f9, type: 2}
     - target: {fileID: 919132149155446097, guid: fe19cd3280e5bbe4f9d9eceb050c0945, type: 3}
       propertyPath: m_Name
       value: Counter completely modular
@@ -542,7 +546,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 7, y: 3, z: 4.1}
+  m_LocalPosition: {x: -128.5, y: 230.4, z: 238.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
