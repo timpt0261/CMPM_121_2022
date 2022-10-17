@@ -1377,8 +1377,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258845518}
-  m_LocalRotation: {x: 0.43076393, y: 0.12591758, z: -0.039884645, w: 0.89274657}
-  m_LocalPosition: {x: 34.268627, y: 83.489525, z: -112.76534}
+  m_LocalRotation: {x: 0.38697407, y: 0.35562658, z: -0.15689276, w: 0.83616114}
+  m_LocalPosition: {x: 3.2913125, y: 84.06066, z: -98.8516}
   m_LocalScale: {x: 0, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1455,7 +1455,7 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: 2152650497050773260, guid: 1368cb74fa28bed4980a83af0955c43a, type: 2}
+  - key: {fileID: -5821579143250283806, guid: 1368cb74fa28bed4980a83af0955c43a, type: 2}
     value: {fileID: 1107664135}
   m_ExposedReferences:
     m_References: []
@@ -1588,7 +1588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 720424935}
-  m_PathPosition: 0
+  m_PathPosition: 4
   m_PositionUnits: 0
   m_PathOffset: {x: 0, y: 0, z: 0}
   m_XDamping: 4.8
@@ -4472,7 +4472,7 @@ Camera:
   far clip plane: 1000
   field of view: 20.3
   orthographic: 1
-  orthographic size: 66.8
+  orthographic size: 82.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4495,8 +4495,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.17287737, y: 0.11201463, z: -0.01979326, w: 0.9783529}
-  m_LocalPosition: {x: 121.78435, y: 78.735725, z: -56.718216}
+  m_LocalRotation: {x: 0.34129298, y: -0.33439505, z: 0.1313937, w: 0.86858207}
+  m_LocalPosition: {x: 143.3005, y: 141.88, z: -131.51128}
   m_LocalScale: {x: 0, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5294,12 +5294,14 @@ PlayableDirector:
   m_GameObject: {fileID: 1107664131}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 0}
+  m_PlayableAsset: {fileID: 11400000, guid: 900931887294d8b4ea91be3adefff140, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 7400617445180510677, guid: 900931887294d8b4ea91be3adefff140, type: 2}
+    value: {fileID: 1107664135}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1107664133
