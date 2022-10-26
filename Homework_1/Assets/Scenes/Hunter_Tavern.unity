@@ -1798,8 +1798,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258845518}
-  m_LocalRotation: {x: 0.12824371, y: -0.40552488, z: 0.05757913, w: 0.90320975}
-  m_LocalPosition: {x: 129.26645, y: 31.959011, z: -117.82237}
+  m_LocalRotation: {x: 0.25425524, y: -0.3752893, z: 0.10784198, w: 0.8848064}
+  m_LocalPosition: {x: 117.84553, y: 58.4, z: -112.62318}
   m_LocalScale: {x: 0, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2010,13 +2010,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 720424935}
-  m_PathPosition: 1.068441
+  m_PathPosition: 0.9779214
   m_PositionUnits: 0
-  m_PathOffset: {x: 10.75018, y: -26.44099, z: -6.573627}
-  m_XDamping: 20
-  m_YDamping: 20
+  m_PathOffset: {x: 0, y: 0, z: 0}
+  m_XDamping: 15
+  m_YDamping: 15
   m_ZDamping: 20
-  m_CameraUp: 3
+  m_CameraUp: 2
   m_PitchDamping: 5
   m_YawDamping: 5
   m_RollDamping: 5
@@ -2049,9 +2049,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_NoiseProfile: {fileID: 11400000, guid: 46965f9cbaf525742a6da4c2172a99cd, type: 2}
+  m_NoiseProfile: {fileID: 11400000, guid: 20a705aea2d80e0478fb89b6f43d8530, type: 2}
   m_PivotOffset: {x: 0, y: 0, z: 0}
-  m_AmplitudeGain: 1
+  m_AmplitudeGain: 0.3
   m_FrequencyGain: 1
   mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!114 &287010211
@@ -6669,6 +6669,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23402383285522292, guid: 7738ccb3c7ccb2f4aa36bd30a8fbb7ef, type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7738ccb3c7ccb2f4aa36bd30a8fbb7ef, type: 3}
 --- !u!4 &1042950174 stripped
@@ -7231,7 +7235,7 @@ MonoBehaviour:
     GateFit: 2
     m_SensorSize: {x: 1, y: 1}
   m_Transitions:
-    m_BlendHint: 0
+    m_BlendHint: 1
     m_InheritPosition: 1
     m_OnCameraLive:
       m_PersistentCalls:
@@ -7246,7 +7250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107664131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.2, y: -93.1, z: -159.1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 1.0063559, z: 1.049811}
   m_ConstrainProportionsScale: 0
   m_Children:
