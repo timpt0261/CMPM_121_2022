@@ -1,5 +1,6 @@
 # CMPM_121_2022
 Has projects from CMPM-121 from Fall 2022
+Video is in the comments
 For my scene I chose to create a Medival tavern. 
 Assest I used from online I included are various:
 * Architecture
