@@ -42,3 +42,24 @@ Links :
  - https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2F18994609%2Fstock-photo-cheerful-waitress-or-bartender.html&psig=AOvVaw1AdteAWXzyzXXe8Fme4Zl7&ust=1666160758656000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPjYjdKS6foCFQAAAAAdAAAAABAE
  -https://www.google.com/search?tbs=sbi:AMhZZivYBhEem14CT-EC9MMOqYgWSAAI3IyZXBWMvlRoD9oAzYyH6a2iVufr_1maa3Hjr8giBcDlZwllk9AZ_1FG1xoGtQNyq7tA_1quYme30BAycrkFrZTX-ZuzKcGw-Z4WXpUhtV4g_14eFNB9RwnsliNsPcRpSCvwlw
  
+ 
+ 
+ Update to HomeWork 2:
+ 
+ All lighting included in are :
+   * Point Light - dec_light_3
+   * Directional Light
+   * Spotlight - dec_light_1 , dec_light_2
+   * Area Light 
+   * Emissive Material - Deer Decoration Material
+
+Particle Systems(near cauldron):
+   * smoke
+   * fire 
+
+UI update:
+   * change_cameras -> ui
+   * cameras -> switch cameras
+   * mode -> switches lights in scene (Day, Dark, Spooky)
+   * Daylight -> changes rotation of directional light
+   * Chandelier -> changes intensity of chandelier 
