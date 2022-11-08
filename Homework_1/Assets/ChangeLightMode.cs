@@ -40,7 +40,7 @@ public class ChangeLightMode : MonoBehaviour
     void AdjustIntensity(ChangeEvent<float> ev) 
     {
         float intensity = chandelier_slider.value;
-        Debug.Log("day slider" + intensity);
+        Debug.Log("intensity: " + intensity);
         Chandeliers.ForEach(x => x.intensity = intensity);
         
     }
