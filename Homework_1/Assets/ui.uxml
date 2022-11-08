@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Frame_1">
+        <ui:Button text="Change Camera" display-tooltip-when-elided="true" name="Button_1" style="height: 85px; width: 237px; font-size: 25px; color: rgb(255, 255, 255); display: flex; background-color: rgb(38, 71, 243); -unity-text-outline-width: 0;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Frame_2">
+        <ui:Button text="Mode" display-tooltip-when-elided="true" name="Button_2" style="height: 85px; width: 237px; font-size: 25px; color: rgb(255, 255, 255); display: flex; background-color: rgb(243, 68, 38); -unity-text-outline-width: 0;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Frame_3" style="height: 71px; width: 338px; background-color: rgba(0, 0, 0, 0);">
+        <ui:Slider picking-mode="Ignore" label="Daylight" value="50" high-value="50" low-value="-70" direction="Horizontal" name="Slider_1" style="background-color: rgba(144, 144, 144, 0); color: rgb(255, 255, 255); -unity-text-outline-width: 0; -unity-text-outline-color: rgba(207, 207, 207, 0); height: 19px; width: 289px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Frame_4" style="height: 22px; width: 289px;">
+        <ui:Slider picking-mode="Ignore" label="Chandelier" value="3" high-value="10" name="Slider_2" style="background-color: rgba(56, 56, 56, 0); color: rgb(255, 255, 255); font-size: 12px; width: 290px;" />
+    </ui:VisualElement>
+</ui:UXML>

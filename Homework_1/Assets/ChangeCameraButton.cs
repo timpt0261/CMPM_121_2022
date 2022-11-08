@@ -15,7 +15,7 @@ public class ChangeCameraButton : MonoBehaviour
         var uiDocument = GetComponent<UIDocument>();
         var rootVisualElement = uiDocument.rootVisualElement;
         frame = rootVisualElement.Q<VisualElement>("Frame_1");
-        button = frame.Q<Button>("Button");
+        button = frame.Q<Button>("Button_1");
         button.RegisterCallback<ClickEvent>(ev => ChangeCamera());
     }
 

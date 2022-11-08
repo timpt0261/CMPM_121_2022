@@ -21,8 +21,8 @@ public class ChangeLightMode : MonoBehaviour
     {
         var uiDocument = GetComponent<UIDocument>();
         var rootVisualElement = uiDocument.rootVisualElement;
-        frame_2 = rootVisualElement.Q<VisualElement>("Frame_2");
-        frame_3 = rootVisualElement.Q<VisualElement>("Frame_3");
+        frame_2 = rootVisualElement.Q<VisualElement>("Frame_3");
+        frame_3 = rootVisualElement.Q<VisualElement>("Frame_4");
         day_slider = frame_2.Q<Slider>("Slider_1");
         chandelier_slider = frame_3.Q<Slider>("Slider_2");
         day_slider.RegisterValueChangedCallback(AdjustDaylight);
