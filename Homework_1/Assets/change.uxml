@@ -6,6 +6,6 @@
         <ui:Slider picking-mode="Ignore" label="Daylight" value="-70" high-value="50" low-value="-70" direction="Horizontal" name="Slider_1" />
     </ui:VisualElement>
     <ui:VisualElement name="Frame_3" style="height: 71px; width: 338px;">
-        <ui:Slider picking-mode="Ignore" label="Chandelier" value="50" high-value="100" name="Slider_3" />
+        <ui:Slider picking-mode="Ignore" label="Chandelier" value="3" high-value="10" name="Slider_3" />
     </ui:VisualElement>
 </ui:UXML>

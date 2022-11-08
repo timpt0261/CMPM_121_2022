@@ -25,17 +25,24 @@ public class ChangeLightMode : MonoBehaviour
         frame_3 = rootVisualElement.Q<VisualElement>("Frame_3");
         day_slider = frame_2.Q<Slider>("Slider_1");
         chandelier_slider = frame_3.Q<Slider>("Slider_2");
-        day_slider.RegisterCallback<ClickEvent>(ev => AdjustDaylight());
-        chandelier_slider.RegisterCallback< ClickEvent > (ev => AdjustIntensity());
+        day_slider.RegisterValueChangedCallback(AdjustDaylight);
+        chandelier_slider.RegisterValueChangedCallback(AdjustIntensity);
     }
 
-    void AdjustDaylight()
+    private void AdjustDaylight(ChangeEvent<float> ev )
     {
-        Vector3 pos = new Vector3(day_slider.value, -70, 0);
-        daylight.transform.Rotate(pos);
+        float rotate_x  = day_slider.value;
+        Debug.Log("day slider" + rotate_x);
+        Quaternion new_pos = Quaternion.Euler(rotate_x, -70, 0);
+        daylight.transform.SetPositionAndRotation(daylight.transform.position, new_pos);
+
     }
-    void AdjustIntensity() { 
-    
+    void AdjustIntensity(ChangeEvent<float> ev) 
+    {
+        float intensity = chandelier_slider.value;
+        Debug.Log("day slider" + intensity);
+        Chandeliers.ForEach(x => x.intensity = intensity);
+        
     }
 
 }
